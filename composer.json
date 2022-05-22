@@ -1,6 +1,6 @@
 {
-    "name": "msolutions/tag-cache",
-    "description": "File tag caching package",
+    "name": "msolutions/view-cache",
+    "description": "File tag view caching package",
     "keywords": [
         "file caching",
         "file cache",
@@ -9,6 +9,10 @@
         "tag cache",
         "tag caching",
         "tag file caching",
+        "cache html",
+        "cache templates",
+        "cache blade",
+        "cache frontend",
         "storage cache"
     ],
     "license": "MIT",
@@ -25,7 +29,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MSL\\Providers\\TagCacheServiceProvider"
+                "MSL\\Providers\\ViewCacheServiceProvider"
             ]
         }
     },
